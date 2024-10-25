@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+/* Estils per a la navbar */
+nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #820606;
+    padding: 15px;
+}
+
+nav ul {
+    position: fixed; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #820606;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #bcd8f6;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed; 
+    width: 100%
+    background-color:#820606 !important;
+}
+
+.carousel {
+    margin: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #efa3a3;
+}
+
+.navbar-brand {
+    color: #efa3a3;
+}
+
+.btn:hover {
+    background-color: rgb(227, 52, 87);
+    border-color: rgb(227, 52, 87);
+}
+.btn-outline-success {
+    color: #efa3a3;
+    --bs-btn-border-color:rgb(227, 52, 87);
+}
+
+.btn- {
+    color: rgb(227, 52, 87)
+}
+.btn:hover {
+    background-color: rgb(227, 52, 87);
+    border-color: rgb(227, 52, 87);
+}
+
+.btn {
+    background-color: #820606;
+    border-color: #820606;
+    width: 100%;
+}
+
+.table {
+    background-color:#820606 !important;
+    color: #820606;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    color:aliceblue;
+    font-weight: bold;
+    background-color: #820606;
+    border: 5px solid #a11818;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 1px;
+}
